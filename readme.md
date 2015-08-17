@@ -19,7 +19,7 @@ To test out your routes, you can use:
 
 1. `curl`
   - `curl http://localhost:3000/` # get request
-  - `curl --data 'id=3&body=do somethin&completed=false' http://localhost:3000/` # get request
+  - `curl --data 'id=3&body=do somethin&completed=false' http://localhost:3000/` # post request
 2. [Cocoa Rest Client](http://mmattozzi.github.io/cocoa-rest-client/)
 3. [PostMan](https://www.getpostman.com/)
 
