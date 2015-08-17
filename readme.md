@@ -1,4 +1,7 @@
-## DOSomething.ly
+# Do Something
+
+This week, we'll be working on a to-do based application called do something!
+
 Homework tonight is to create an express app!
 
 In your application
