@@ -2,7 +2,7 @@
 Homework tonight is to create an express app!
 
 In your application
-- Create a variable `todos` as an array of 5 objects.
+- Create a variable `tasks` as an array of 5 objects.
   - Each object should contain 3 properties
     - id, integer
     - body, string
@@ -16,7 +16,7 @@ In your application
 
 ### BONUS
 - Make a post/put request that changes an existing todo from uncompleted to completed. Maybe render different index view to visualize the completed todos versus incomplete.
-- Extract your routes into a separate file.
+- Implement CRUD actions for lists in addition to tasks
 
 ### Super BONUS
 - Using file I/O fake the funk of a database!
