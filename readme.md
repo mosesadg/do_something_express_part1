@@ -7,12 +7,21 @@ In your application
     - id, integer
     - body, string
     - completed, boolean
-- Create an index route that shows a list of all of the objects
-  - each todo should have a link to its corresponding show page.
-  - each todo will have its body and its completed status
+- Create an index route that responds with a list of all of the objects
+  - send back results with `res.json`
 - Create a show route that shows one single `todo`
 - Create a `POST` route that allows you to add an object to the array
   - *note that this will not update the file, if you exit the application and restart, you will lose everything created in the `POST` route.*
+
+**Please do not create any views**
+
+To test out your routes, you can use:
+
+1. `curl`
+  - `curl http://localhost:3000/` # get request
+  - `curl --data 'id=3&body=do somethin&completed=false' http://localhost:3000/` # get request
+2. [Cocoa Rest Client](http://mmattozzi.github.io/cocoa-rest-client/)
+3. [PostMan](https://www.getpostman.com/)
 
 ### BONUS
 - Make a post/put request that changes an existing todo from uncompleted to completed. Maybe render different index view to visualize the completed todos versus incomplete.
