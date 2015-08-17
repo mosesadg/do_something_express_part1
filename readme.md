@@ -16,6 +16,7 @@ In your application
 
 ### BONUS
 - Make a post/put request that changes an existing todo from uncompleted to completed. Maybe render different index view to visualize the completed todos versus incomplete.
+- Extract your routes into a separate file.
 
 ### Super BONUS
 - Using file I/O fake the funk of a database!
